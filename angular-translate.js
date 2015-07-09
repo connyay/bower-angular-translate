@@ -3,6 +3,10 @@
  * http://github.com/angular-translate/angular-translate
  * Copyright (c) 2015 ; Licensed MIT
  */
+(function (root, factory) {
+    factory();
+}(this, function () {
+
 /**
  * @ngdoc overview
  * @name pascalprecht.translate
@@ -2884,3 +2888,5 @@ $translationCache.$inject = ['$cacheFactory'];
 
 $translationCache.displayName = '$translationCache';
 return 'pascalprecht.translate';
+
+}));
